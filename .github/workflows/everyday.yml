@@ -17,6 +17,9 @@ jobs:
               env:
                   config: config.yml
                   secrets: ${{ secrets.SECRETS }}
+                  
+            - name: install firefox
+              run: npx playwright install
 
             - name: Bahamut Automation
               run: docker run --rm -v "$(pwd)/merged-config.yml:/config.yml" jacoblincool/bahamut-automation
