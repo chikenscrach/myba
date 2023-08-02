@@ -19,7 +19,7 @@ jobs:
                   secrets: ${{ secrets.SECRETS }}
                   
             - name: install firefox
-              run: npx playwright install
+              run: npx playwright install firefox --with-deps
 
             - name: Bahamut Automation
               run: docker run --rm -v "$(pwd)/merged-config.yml:/config.yml" jacoblincool/bahamut-automation
