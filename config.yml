@@ -27,8 +27,8 @@ modules:
         webhook: $discord_webhook
 
 browser:
-    type: webkit
-    headless: true
+    type: firefox
+    headless: false
     firefoxUserPrefs:
         dom.webaudio.enabled: false
         media.volume_scale: 0
