@@ -33,3 +33,4 @@ browser:
         dom.webaudio.enabled: false
         media.volume_scale: 0
         media.default_volume: 0
+    executablePath: /root/.cache/ms-playwright/firefox-1419/firefox/firefox
