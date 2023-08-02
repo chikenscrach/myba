@@ -1,0 +1,35 @@
+---
+shared:
+    shared_key: shared_val
+
+modules:
+    utils:
+    report:
+    ad_handler:
+
+    # 主要功能模組
+    login:
+        username: $username
+        password: $password
+        twofa: $twofa
+    sign:
+    answer:
+    lottery:
+        max_attempts: 50 
+        max_parallel: 1 
+    del_mail:
+        match:
+            - title: "【勇者福利社】成功獲得抽獎資格通知信"
+            - title: "動畫瘋獲獎通知"
+    logout:
+
+    discord:
+        webhook: $discord_webhook
+
+browser:
+    type: webkit
+    headless: true
+    firefoxUserPrefs:
+        dom.webaudio.enabled: false
+        media.volume_scale: 0
+        media.default_volume: 0
