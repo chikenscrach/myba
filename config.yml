@@ -33,4 +33,4 @@ browser:
         dom.webaudio.enabled: false
         media.volume_scale: 0
         media.default_volume: 0
-    # executablePath: /home/runner/.cache/ms-playwright/firefox-1419/firefox
+    executablePath: /home/runner/.cache/ms-playwright/webkit-1869/pw_run.sh
