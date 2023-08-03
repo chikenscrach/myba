@@ -22,6 +22,6 @@ jobs:
               run: npx playwright install webkit --with-deps
 
             - name: Bahamut Automation
-              run: docker run --rm -v "$(pwd)/merged-config.yml:/config.yml" jacoblincool/bahamut-automation
+              run: npx bahamut-automation -c merged-config.yml
 
             - uses: gautamkrishnar/keepalive-workflow@master
