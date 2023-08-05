@@ -11,7 +11,7 @@ modules:
     login:
         username: $username
         password: $password
-        twofa: $twofa
+    #    twofa: $twofa
     sign:
     answer:
     lottery:
