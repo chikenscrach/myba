@@ -28,9 +28,9 @@ modules:
 
 browser:
     type: webkit
-    headless: false
+    headless: true
     firefoxUserPrefs:
         dom.webaudio.enabled: false
         media.volume_scale: 0
         media.default_volume: 0
-    executablePath: /home/runner/.cache/ms-playwright/webkit-1869/pw_run.sh
+    # executablePath: /home/runner/.cache/ms-playwright/webkit-1869/pw_run.sh
