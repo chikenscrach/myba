@@ -17,8 +17,6 @@ modules:
             - title: "【勇者福利社】成功獲得抽獎資格通知信"
             - title: "動畫瘋獲獎通知"
     logout:
-    discord:
-        webhook: ""
 browser:
     type: 
     headless: true
