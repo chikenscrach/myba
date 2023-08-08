@@ -1,0 +1,24 @@
+shared:
+    shared_key: shared_val
+modules:
+    utils:
+    report:
+    ad_handler:
+    login:
+        username: ""
+        password: ""
+    sign:
+    answer:
+    lottery:
+        max_attempts: 20 
+        max_parallel: 1 
+    del_mail:
+        match:
+            - title: "【勇者福利社】成功獲得抽獎資格通知信"
+            - title: "動畫瘋獲獎通知"
+    logout:
+    discord:
+        webhook: ""
+browser:
+    type: 
+    headless: true
